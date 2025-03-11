@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+:root{
+    --dark-blue:#0E304E;
+    --light-blue:#BDE4FF;
+    --grey-blue:#DAE0E7;
+    --white:#F8F8F8;
+    --box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    --roboto-light-weight: 300;
+    --roboto-regular-weight: 400;
+    --roboto-medium-weight: 500;
+    --roboto-bold-weight: 700;
+    --roboto-black-weight: 900;
+}
+
+h1{
+    font-weight: var(--roboto-black-weight);
+    font-size: 40px;
+    color: var(--dark-blue);
+}
+
+h2{
+    font-weight: var(--roboto-bold-weight);
+    font-size: 32px;
+    color: var(--dark-blue);
+}
+
+h3{
+    font-weight: var(--roboto-bold-weight);
+    font-size: 28px;
+    color: var(--dark-blue);
+}
+
+h4{
+    font-weight: var(--roboto-medium-weight);
+    font-size: 24px;
+    color: var(--dark-blue);
+}
+
+h5{
+    font-weight: var(--roboto-medium-weight);
+    font-size: 20px;
+    color: var(--dark-blue);
+}
+
+h6{
+    font-weight: var(--roboto-regular-weight);
+    font-size: 16px;
+    color: var(--dark-blue);
+}
+
+.bodyLarge{
+    font-weight: var(--roboto-regular-weight);
+    font-size: 18px;
+    color: var(--dark-blue);
+}
+
+.bodyRegular{
+    font-weight: var(--roboto-regular-weight);
+    font-size: 16px;
+    color: var(--dark-blue);
+}
+
+.bodySmall{
+    font-weight: var(--roboto-light-weight);
+    font-size: 14px;
+    color: var(--dark-blue);
+}
+
+p{
+    font-weight: var(--roboto-regular-weight);
+    font-size: 14px;
+    color: var(--dark-blue);
+}

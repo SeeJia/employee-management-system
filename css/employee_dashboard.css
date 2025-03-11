@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+:root{
+    --dark-blue:#0E304E;
+    --light-blue:#BDE4FF;
+    --grey-blue:#DAE0E7;
+    --white:#F8F8F8;
+    --box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+body {
+    background-color: var(--grey-blue);
+    font-family: 'Roboto';
+}
+
+.navbar{
+    background-color: var(--white); 
+    color: var(--dark-blue);
+    box-shadow: var(--box-shadow);
+    font-family: 'Roboto';
+}
+
+.navbar.sticky-top {
+    background-color:var(--white); /* 设置一个背景色，例如白色 */
+    transition: background-color 0.3s ease; /* 可选：平滑过渡效果 */
+}
+
+.navbar-brand{
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.nav-link:hover{
+    color: var(--light-blue);
+}
+
+.dot {
+    height: 40px;
+    width: 40px;
+    background-color: var(--grey-blue);
+    border-radius: 50%;
+    display: inline-block;
+    /* vertical-align: middle;  */
+}
+
+.image_icon{
+    color: var(--dark-blue);
+}
+
+.card{
+    min-height: 200px;
+    box-shadow: var(--box-shadow);
+}
+
+.card-dot{
+    height: 120px;
+    width: 120px;
+    background-color: var(--grey-blue);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+

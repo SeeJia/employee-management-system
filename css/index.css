@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+:root{
+    --dark-blue:#0E304E;
+    --light-blue:#BDE4FF;
+    --grey-blue:#DAE0E7;
+    --white:#F8F8F8;
+    --box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+body {
+  background-color:var(--white);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+.login-card {
+  max-width: 900px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.left-section {
+  background-color: #1c3d5a;
+  color: #fff;
+  padding: 40px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.right-section {
+  padding: 40px;
+}
+
+.form-login{
+  margin-bottom: 12px;
+}
+
+.form-label {
+  font-weight: 600;
+}
+
+.text-login{
+  color: var(--white);
+}
+
+.btn-login{
+    padding: 12px 24px;
+    background-color: var(--dark-blue);
+    color: var(--white);
+    box-shadow: var(--box-shadow);
+    text-decoration: none;
+    border-radius: 8px;
+    border: none;
+}
+
+.btn-login:hover{
+    background-color: var(--light-blue);
+    color: var(--dark-blue);
+    box-shadow: var(--box-shadow);
+}
+
