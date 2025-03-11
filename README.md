@@ -14,7 +14,7 @@ You can view the Figma design for this project here: [Figma Design](https://www.
 
 ## Installation
 Clone the repository:
-https://github.com/SeeJia/employee-management-system.git
+https://github.com/yourusername/employee-management-system.git
 
 ## License
 This project is licensed under the MIT License.
