@@ -3,7 +3,7 @@
 The Employee Management System is a simple web application that allows an administrator to manage employee records. Admins can add, edit, and delete employee data efficiently.
 
 ## Features
-Admin Panel: Manage employee records (add, edit, delete employees).
+Admin Panel: Manage employee records (add, edit, delete employees). [Admin_Pages](https://seejia.github.io/employee-management-system/html/admin_login.html)
 Employee Section: View personal details (if applicable).
 
 ## Technologies Used
